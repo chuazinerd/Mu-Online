@@ -1,0 +1,57 @@
+/* formatação do boatao de donwload*/   
+.conteiner {
+    width: 500px;
+    margin: auto;
+    margin-top: 25vw;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.conteiner img {
+ width: 100%;
+}
+
+.fig__test {
+    font-family: 'MedievalSharp','cursive';
+    position: absolute;
+    bottom: 32px;
+    left: 189px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner__titulo {
+    font-family: 'MedievalSharp', 'cursive';
+    font-size: 80px;
+    color: rgb(10, 10, 10);
+}

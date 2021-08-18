@@ -1,0 +1,28 @@
+.canyou {
+    color: #530303;
+    font-family: 'Georama', 'sans-serif';
+    font-size: 45px;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.75);
+    top: 25vw;
+    text-align: center;
+    transform:translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+}
+
+.banner__titulo {
+    color: #530303;
+    font-family: 'Georama', 'sans-serif';
+    font-size: 45px;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.75);
+    top: 25vw;
+    text-align: center;
+    transform:translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+}
+

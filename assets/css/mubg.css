@@ -1,0 +1,11 @@
+/* formatção do plano de fundo na classe do body */
+.mubg {
+    background-image: url('./../img/fundo.jpg');
+    background-size: 100% auto;
+    background-position-y: -12vw;
+    margin-top: 20px;
+}
+
+
+
+

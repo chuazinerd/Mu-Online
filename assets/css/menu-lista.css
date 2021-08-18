@@ -1,0 +1,14 @@
+.menu__lista {
+    display: flex;
+}
+
+.mu__logo {
+    width: 150px;
+    margin-right: -32px;
+}
+
+/* para zerar a margem da direita 
+header nav ul li :last-child a {
+    margin-right: 0;
+}
+*/
