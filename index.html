@@ -11,9 +11,9 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="./assets/css/mubg.css">
         <link rel="stylesheet" href="./assets/css/menu/normalize.css"/>
         <link rel="stylesheet" href="./assets/css/menu/reset.css"/>
-        <link rel="stylesheet" href="./assets/css/mubg.css">
         <link rel="stylesheet" href="./assets/css/cabecalho.css">
         <link rel="stylesheet" href="./assets/css/menu-lista.css">
         <link rel="stylesheet" href="./assets/css/menu-item.css">
@@ -23,6 +23,12 @@
         <link rel="stylesheet" href="./assets/css/banner-imagem.css">
         <link rel="stylesheet" href="./assets/css/banner-titulo.css">
         <link rel="stylesheet" href="./assets/css/style-carousel.css">
+        <link rel="stylesheet" href="./assets/css/fonts/fonts.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/receitas/receitas.css">
+        <link rel="stylesheet" href="./assets/css/rodape.css">
+
+
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,10 +56,10 @@
             <div class="fig__test">DOWNLOAD</div>
         </section>
 
-         <!-- parte do carrosel -->
+         <!-- parte do carousel -->
 
         <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-interval="5000" data-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide "  data-interval="5000" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -68,20 +74,18 @@
                 </div>
                 <!-- Para um html semantico usar tag "figure" no lugar de div para onde tiver imagens -->
                 <div class="carousel-item">
-                  <img src="./assets/img/carrossel2.jpg" class="d-block w-100 imagem-carrosel2" alt="...">
+                  <img src="./assets/img/carrossel2.jpg" class="d-block w-100 imagem-carrosel" alt="...">
                   <div class="carousel-caption d-none d-md-block h-50">
                     <h1 class="fonte-titulo display-3">consectetur adipiscing elit</h1>
                   </div>
                 </div>
-                            <!-- teste para terceiro carousel -->
+                <!-- teste para terceiro carousel -->
                 <div class="carousel-item">
-                    <img src="./assets/img/carosel3.jpg" class="d-block w-100 imagem-carrosel2" alt="...">
+                    <img src="./assets/img/carosel3.jpg" class="d-block w-100 imagem-carrosel" alt="...">
                     <div class="carousel-caption d-none d-md-block h-50">
                         <h1 class="fonte-titulo display-3">consectetur adipiscing elit</h1>
                     </div>
                 </div>
-
-
 
               <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -92,12 +96,66 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
+        </div>
+
+        <section class="sobre">
+          <h2 class="sobre__titulo">Etiam eget ligula eu lectus lobortis </h2>
+          <p class="sobre__descricao">aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+
+
+        <!-- parte dos card's -->
+        <section class="receita">
+          <div class="receitas">
+              <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/cards/mu-card.jpg" class="img__sze"/>
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
           </div>
-
-
-
-
-    
+          <div class="receitas">
+              <img alt="Salada de kiwi" class="receita__imagem" src="./assets/img/cards/mu-card2.jpg" />
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
+          </div>
+          <div class="receitas">
+              <img alt="Mix de vegetais" class="receita__imagem" src="./assets/img/cards/mu-card3.jpg" />
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
+          </div>
+          <div class="receitas">
+              <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/cards/mu-card4.jpg" />
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
+          </div>
+          <div class="receitas">
+              <img alt="Prato oriental" class="receita__imagem" src="./assets/img/cards/mu-card5.jpg" />
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
+          </div>
+          <div class="receitas">
+              <img alt="Beterrabas assadas" class="receita__imagem" src="./assets/img/cards/mu-card6.jpg" />
+              <div class="receita__conteudo">
+                  <h4 class="receita__titulo">elit, sed do eiusmod </h4>
+                  <p class="receita__descricao">Excepteur sint occaecat cupidatat non proident.</p>
+                  <button class="receita__botao">sint occaecat</button>
+              </div>
+          </div>
+      </section>
+      <!--configurações do bootstrap -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

@@ -7,13 +7,19 @@
     margin: 20rem;
 }
 
-.imagem-carrosel {
-    height: 400px;
+#carouselExampleCaptions {
+    box-shadow: 10px 5px 5px rgb(30, 31, 30);
 }
 
-.imagem-carrosel2 {
-    height: 400px;
+.carousel {
+    
 }
+
+.imagem-carrosel {
+    /* vh é o mesmo que view port */
+    height: calc(70vh - 100px);
+}
+
 
 .botao-cor {
     background-color: rgb(182, 12, 12);

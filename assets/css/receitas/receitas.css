@@ -1,0 +1,38 @@
+.receita {
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    margin-bottom: 200px;
+    margin-top: -45px;
+}
+
+.receitas {
+    border-top: 1px solid;
+    border-width: 15px;
+    border-color:rgba(34, 33, 33, 0.9);
+    background-color: rgba(34, 33, 33, 0.9);
+    color: rgb(187, 187, 187);
+    width: 310px;
+    margin: 3px;
+    text-align: center;
+   /* text-align: justify; */
+}
+
+.receita__imagem {
+    max-width: 300px;
+    max-height: 200px;
+    min-width: 240px;
+    min-height: 240px ;
+}
+
+.receita__botao {   
+    background:rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding:0.5rem;
+}
+
+.receita__botao:hover {
+    background-color: rgb(128, 23, 16);
+    cursor: pointer;
+}
